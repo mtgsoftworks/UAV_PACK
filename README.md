@@ -54,6 +54,7 @@ Gerekli kütüphaneleri yüklemek için aşağıdaki komutu kullanabilirsiniz:
 pip install opencv-python
 ```
 
+Yeni versionu çalıştırmak için aşağıdaki komutu termninalde ilgili dizine girip kullanabilirsiniz:
 ```bash
 python video_object_detection_v2.py  --model yolov8s_last.pt  --split-model yolov8s_last.pt  --input ./Videos/  --device cpu
 ```
