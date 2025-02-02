@@ -54,6 +54,8 @@ Gerekli kütüphaneleri yüklemek için aşağıdaki komutu kullanabilirsiniz:
 pip install opencv-python
 ```
 
+python video_object_detection_v2.py  --model yolov8s_last.pt  --split-model yolov8s_last.pt  --input ./Videos/  --device cpu
+
 
 # Image and Label Management Tool
 
